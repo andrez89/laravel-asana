@@ -4,7 +4,7 @@ if (!function_exists('asana')) {
     /**
      * Get the asana instance.
      *
-     * @return \Torann\LaravelAsana\Asana
+     * @return \Andrez89\LaravelAsana\Asana
      */
     function asana()
     {

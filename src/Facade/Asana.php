@@ -1,6 +1,6 @@
 <?php
 
-namespace Torann\LaravelAsana\Facade;
+namespace Andrez89\LaravelAsana\Facade;
 
 class Asana extends \Illuminate\Support\Facades\Facade
 {

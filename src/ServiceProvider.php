@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace Torann\LaravelAsana;
+namespace Andrez89\LaravelAsana;
 
 use Illuminate\Support\Str;
 
@@ -14,7 +14,8 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/asana.php', 'asana'
+            __DIR__ . '/../config/asana.php',
+            'asana'
         );
     }
 

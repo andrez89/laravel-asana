@@ -1,6 +1,6 @@
 <?php
 
-namespace Torann\LaravelAsana;
+namespace Andrez89\LaravelAsana;
 
 use Exception;
 use InvalidArgumentException;
@@ -274,8 +274,7 @@ class AsanaCurl
 
             if (is_array($value)) {
                 $return = array_merge($return, $this->http_build_query_for_curl($value, $name));
-            }
-            else {
+            } else {
                 // Convert file to something usable
                 if ($key === 'file') {
                     $value = $this->addPostFile($value);
